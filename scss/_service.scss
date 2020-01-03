@@ -1,0 +1,48 @@
+.service {
+
+    background: #f9f9f9;
+
+    text-align: center;
+
+    padding-top: 80px;
+
+    padding-bottom: 80px;
+
+    font-family: $font-stack;
+
+    .service-type {
+        background: white;
+        border-radius: 5px;
+        padding: 32px 22px;
+        border-color: transparent;
+
+        &:hover {
+            background: #2b2b2b;
+            color: white;
+            cursor: crosshair;
+
+            .icon {
+                color: white;
+            }
+        }
+
+        .icon {
+            color: $primary-color;
+        }
+
+
+    }
+
+    .black {
+        background: #2b2b2b;
+        color: white;
+        cursor: crosshair;
+
+         .icon {
+             color: white;
+         }
+
+    }
+    
+   
+}

@@ -1,0 +1,63 @@
+.btn-hero {
+    background: #000000;
+
+    border: 1px solid transparent;
+
+    border-radius: 50px;
+
+    padding: 18px 32px;
+
+    font-size: 12px;
+
+    letter-spacing: 1.5px;
+
+    font-weight: bold;
+
+    color: white;
+
+    // flex-grow: 0;
+
+    &:hover {
+
+        background: white;
+
+        border-color: #adadaa;
+
+        color: #333;
+
+        
+
+    }
+}
+
+.btn-contact {
+
+       background: #000000;
+
+       border: 1px solid transparent;
+
+       border-radius: 50px;
+
+       padding: 15px 32px;
+
+       font-size: 12px;
+
+       letter-spacing: 1.5px;
+
+       font-weight: bold;
+
+       color: white;
+
+       &:hover {
+
+           background: #7682cc;
+
+           border-color: #adadaa;
+
+           color: #333;
+
+
+
+       }
+
+}

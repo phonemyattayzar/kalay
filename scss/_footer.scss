@@ -1,0 +1,26 @@
+.footer {
+    padding: 120px 0;
+    background: $primary-color;
+    text-align: center;
+    
+    .footer-icon i {
+        margin: 10px 8px;
+        border: 1 solid white;
+        height: 45px;
+        width: 45px;
+        line-height: 45px;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 100px;
+        background: #eee;
+        color: black;
+
+
+        &:hover {
+            background: black;
+            color: white;
+            transition: all 0.6s ease-in-out;
+            transform: scale(1.1);
+        }
+    }
+}
